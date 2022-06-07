@@ -1,0 +1,25 @@
+/* Custom properties (like global variables) */
+:root {
+    --primary-color: #ffc107;
+    --secondary-color: #0097a7; /* property: var(--secondary-color); */
+}
+
+/* To optimize the rem units (1rem = 10px) */
+html {
+    font-size: 62.5%;    
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; /* From Google fonts to all elements*/
+}
+
+/* My CSS */
+.title {
+    text-align: center;
+    font-size: 1.4rem; /*14px*/
+}
+
+p {
+    text-align: center !important;
+}
